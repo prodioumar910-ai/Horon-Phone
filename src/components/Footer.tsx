@@ -40,6 +40,7 @@ const Footer = () => {
               <img 
                 src="/logo.jpg" 
                 alt="Horon Phone" 
+                referrerPolicy="no-referrer"
                 className="h-16 md:h-20 w-auto rounded-xl shadow-md hover:opacity-90 transition-opacity"
               />
             </motion.a>

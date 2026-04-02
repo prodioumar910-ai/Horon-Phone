@@ -54,6 +54,7 @@ const Header = () => {
           <img 
             src="/logo.jpg" 
             alt="Horon Phone" 
+            referrerPolicy="no-referrer"
             className="h-12 md:h-14 w-auto rounded-lg shadow-sm"
           />
         </motion.a>
