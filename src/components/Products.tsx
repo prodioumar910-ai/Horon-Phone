@@ -121,7 +121,6 @@ const Products = () => {
                       src={coverImage} 
                       alt={seriesName} 
                       loading="lazy"
-                      referrerPolicy="no-referrer"
                       className="w-full h-full object-contain drop-shadow-2xl group-hover:scale-110 transition-transform duration-700 ease-out"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-80"></div>
@@ -198,7 +197,6 @@ const Products = () => {
                             src={product.image} 
                             alt={product.nom} 
                             loading="lazy"
-                            referrerPolicy="no-referrer"
                             className="w-full h-full object-contain drop-shadow-[0_10px_15px_rgba(0,0,0,0.5)] group-hover:scale-110 transition-transform duration-500"
                           />
                           <div className="absolute top-3 left-3">
