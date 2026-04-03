@@ -1,7 +1,3 @@
-import ip17pmImg from '../assets/images/nav_iphone_17pro__b8rt659h2ogi_large_2x.png';
-import ip17pImg from '../assets/images/nav_iphone_air__f066mfdfhi62_large_2x.png';
-import ip17Img from '../assets/images/nav_iphone_17__bx67weh1ur5y_large_2x.png';
-
 export interface Produit {
   id: string;
   nom: string;
@@ -15,9 +11,9 @@ export interface Produit {
 export const produits: Produit[] = [
   // --- iPHONES ---
   // Série 17
-  { id: 'ip17pm', nom: 'iPhone 17 Pro  256Go', prix: 950000, statut: 'Sur commande', image: ip17pmImg, categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
-  { id: 'ip17p', nom: 'iPhone 17 air 256Go', prix: 850000, statut: 'Sur commande', image: ip17pImg, categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
-  { id: 'ip17', nom: 'iPhone 17 128Go', prix: 700000, statut: 'Sur commande', image: ip17Img, categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
+  { id: 'ip17pm', nom: 'iPhone 17 Pro  256Go', prix: 950000, statut: 'Sur commande', image: '/images/nav_iphone_17pro__b8rt659h2ogi_large_2x.png', categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
+  { id: 'ip17p', nom: 'iPhone 17 air 256Go', prix: 850000, statut: 'Sur commande', image: '/images/nav_iphone_air__f066mfdfhi62_large_2x.png', categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
+  { id: 'ip17', nom: 'iPhone 17 128Go', prix: 700000, statut: 'Sur commande', image: '/images/nav_iphone_17__bx67weh1ur5y_large_2x.png', categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
   
   // Série 16
   { id: 'ip16pm', nom: 'iPhone 16 Pro Max 256Go', prix: 850000, statut: 'Disponible', image: 'https://picsum.photos/seed/ip16pm/400/500', categorie: 'iPhone', sousCategorie: 'Série iPhone 16' },

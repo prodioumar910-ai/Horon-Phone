@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
-import logoImg from '../assets/images/logo.jpg';
-
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -54,7 +52,7 @@ const Header = () => {
           onClick={() => setIsMobileMenuOpen(false)}
         >
           <img 
-            src={logoImg} 
+            src="/images/logo.jpg" 
             alt="Horon Phone" 
             className="h-12 md:h-14 w-auto rounded-lg shadow-sm"
           />

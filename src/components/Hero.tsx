@@ -2,8 +2,6 @@ import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
 
-import logoImg from '../assets/images/logo.jpg';
-
 const Hero = () => {
   return (
     <section id="accueil" className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -15,7 +13,7 @@ const Hero = () => {
         className="absolute inset-0 z-0"
       >
         <img 
-          src={logoImg} 
+          src="/images/logo.jpg" 
           alt="Horon Phone Store" 
           className="w-full h-full object-cover"
         />
