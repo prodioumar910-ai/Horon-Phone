@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
+import logoImg from '../assets/images/logo.jpg';
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
         className="absolute inset-0 z-0"
       >
         <img 
-          src="/images/logo.jpg" 
+          src={logoImg} 
           alt="Horon Phone Store" 
           className="w-full h-full object-cover"
         />
