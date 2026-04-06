@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, MapPin, Phone, Mail } from 'lucide-react';
 import { motion } from 'motion/react';
-import logoImg from '../assets/images/logo.jpg';
+import { logoBase64 } from '../data/images';
 
 const Footer = () => {
   const containerVariants = {
@@ -39,7 +39,7 @@ const Footer = () => {
               className="inline-block"
             >
               <img 
-                src={logoImg} 
+                src={logoBase64} 
                 alt="Horon Phone" 
                 className="h-16 md:h-20 w-auto rounded-xl shadow-md hover:opacity-90 transition-opacity"
               />
