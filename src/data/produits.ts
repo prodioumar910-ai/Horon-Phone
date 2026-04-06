@@ -1,3 +1,5 @@
+import { ip17proBase64 } from './images';
+
 export interface Produit {
   id: string;
   nom: string;
@@ -11,7 +13,7 @@ export interface Produit {
 export const produits: Produit[] = [
   // --- iPHONES ---
   // Série 17
-  { id: 'ip17pm', nom: 'iPhone 17 Pro  256Go', prix: 950000, statut: 'Sur commande', image: 'https://picsum.photos/seed/ip17pm/400/500', categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
+  { id: 'ip17pm', nom: 'iPhone 17 Pro  256Go', prix: 950000, statut: 'Sur commande', image: ip17proBase64, categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
   { id: 'ip17p', nom: 'iPhone 17 air 256Go', prix: 850000, statut: 'Sur commande', image: 'https://picsum.photos/seed/ip17p/400/500', categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
   { id: 'ip17', nom: 'iPhone 17 128Go', prix: 700000, statut: 'Sur commande', image: 'https://picsum.photos/seed/ip17/400/500', categorie: 'iPhone', sousCategorie: 'Série iPhone 17' },
   
